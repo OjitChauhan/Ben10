@@ -16,7 +16,7 @@ import Navu from "./Component/Navu"
 
 const App = () => {
   return (
-    <div className='bg-black  w-screen h-screen' style={{padding: "0px",margin: "0px",boxSizing:'border-box'}}>
+    <div className='bg-black w-full h-full ' style={{padding: "0px",margin: "0px",boxSizing:"border-box"}}>
       
       
        
@@ -27,13 +27,7 @@ const App = () => {
       
       
        <Comany/>
-      
-       <br />
-       <br />
-      <br />
-      <br/>
-      
-       <br />
+     
        <Footer/>
        
       <Villian/>

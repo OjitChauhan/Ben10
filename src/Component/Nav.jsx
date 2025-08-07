@@ -31,7 +31,7 @@ const Nav = () => {
   return (
     
     <div className='relative '>
-      <div className={`relative w-screen  bg-opacity-75 bg-[#AAFF00] h-[130px] flex justify-between  `}>
+      <div className={`relative w-full  bg-opacity-75 bg-[#AAFF00] h-[130px] flex justify-between  `}>
 
         <div className='flex items-center ml-12'><motion.img whileHover={{scale:1.2}} whileTap={{scale:1.2}} src={logoo} className="w-[85px]  " alt="" /></div>
         

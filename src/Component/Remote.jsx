@@ -19,7 +19,7 @@ const Remote = () => {
   const images = [first, second, third, fourth, fifth];
 
   return (
-    <div className="w-screen overflow-hidden mb-7 max-sm:mb-0  pb-2 bg-black px-4 py-6">
+    <div className="w-full  mb-7 max-sm:mb-0  pb-2 bg-black px-4 py-6">
       <div className="flex flex-row max-sm:flex-col justify-around max-lg:flex-row items-center pt-2 gap-10  h-auto ">
         
         {/* Omnitrix Core */}
@@ -80,7 +80,7 @@ const Remote = () => {
               >
                 Omnitrix
               </motion.div>
-              <div className="w-[220px] sm:w-[230px] md:w-[250px] text-gray-900 opacity-50 text-sm sm:text-base text-center">
+              <div className="w-[210px] sm:w-[230px] md:w-[250px] text-gray-900 opacity-50 text-sm sm:text-base text-center">
                 The Omnitrix is a powerful alien device from the Ben 10 universe that allows its user to transform into various alien species by accessing their DNA
               </div>
               <motion.button
