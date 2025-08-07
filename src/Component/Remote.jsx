@@ -36,7 +36,7 @@ const Remote = () => {
                 transition={{ duration: 3, repeat: Infinity }}
               >
                 <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-green-400 absolute top-1 border-4 border-[#354A21]"></div>
-                <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-green-400 absolute bottom-1 right-1 border-4 border-[#354A21]"></div>
+                <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-green-400 absolute bottom-1 right-4 border-4 border-[#354A21]"></div>
                 <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-green-400 absolute right-1 border-4 border-[#354A21]"></div>
                 <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-green-400 absolute bottom-1 border-4 border-[#354A21]"></div>
               </motion.div>

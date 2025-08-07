@@ -18,15 +18,16 @@ const App = () => {
   return (
     <div className='bg-black  w-screen h-screen' style={{padding: "0px",margin: "0px",boxSizing:'border-box'}}>
       
-       <Nav/>
+      
        
-       <div>
+       
+         <Nav/>
        <Remote/>
-       </div>
-      <div>
+       
+      
       
        <Comany/>
-       </div>
+      
        <br />
        <br />
       <br />
@@ -39,13 +40,13 @@ const App = () => {
       
        <Uncle/>
         <Bes/>
-        
+       
      <Grand/>
      <Footer2/> 
      <Footer3/>
     
     
-     
+    
      
      
       
