@@ -15,8 +15,7 @@ const Footer2 = () => {
       
       {/* Fan Form */}
       <motion.div
-        initial={{ opacity: 0, x: 40 }}
-        whileInView={{ opacity: 1, x: 0 }}
+       
         className="w-full sm:w-[300px] shadow-[#23395d] shadow-lg h-auto sm:h-[400px] backdrop-blur-xl bg-black/20 rounded-xl p-4 flex flex-col justify-center items-center space-y-6"
       >
         <div className="text-2xl font-bold"  style={{ fontFamily: "monoton" }}>Fan Form</div>
