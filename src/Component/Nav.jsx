@@ -8,6 +8,7 @@ import { FaHome } from "react-icons/fa";
 import { BsToggles2 } from "react-icons/bs";
 import { CiMenuBurger } from "react-icons/ci";
 import { IoCloseCircle } from "react-icons/io5";
+import bannu from "../image/bennu.png"
 
 
 const Nav = () => {
@@ -50,9 +51,11 @@ const Nav = () => {
               <motion.div initial={{opacity:0}} animate={{opacity:1,y:[20,0], x:[-20,0]}}  className="w-5 h-3 bg-[#203354] flex items-center rounded-full justify-center absolute text-xl text-slate-300 top-0 right-0 p-6"><div><BsToggles2 /></div></motion.div>  
        </div>    }     
         </motion.div>
+           
 
+       
 
-        <div className='w-10 hidden max-sm:block   h-full '>
+        <div className='w-10 overflow-hidden hidden max-sm:block   h-full '>
           <div className='w-full h-full flex  items-center '>
             <div className='text-black text-3xl pr-3 text-bold' onClick={renu}><CiMenuBurger /></div>
           </div>
@@ -69,7 +72,7 @@ const Nav = () => {
 
                 <button
                             onClick={raj}
-                            className="absolute top-5 right-5 text-2xl text-black text-2xl bg-[#AAFF00] rounded-full p-2 shadow-lg"
+                            className="absolute top-5 right-5 text-xl text-black text-xl bg-[#AAFF00] rounded-full p-2 shadow-lg"
                           >
                             <IoCloseCircle />
                           </button>

@@ -11,12 +11,13 @@ import Footer3 from './Component/Footer3'
 import Villian from './Component/Villian'
 import Bes from './Component/Bes'
 import Navu from "./Component/Navu"
+import TypingAnimation from './Component/TypingAnimation'
 
 
 
 const App = () => {
   return (
-    <div className='bg-black w-full h-full ' style={{padding: "0px",margin: "0px",boxSizing:"border-box"}}>
+    <div className='bg-black ' style={{padding: "0px",margin: "0px",boxSizing:"border-box"}}>
       
       
        
@@ -38,6 +39,7 @@ const App = () => {
      <Grand/>
      <Footer2/> 
      <Footer3/>
+     <TypingAnimation/>
     
     
     

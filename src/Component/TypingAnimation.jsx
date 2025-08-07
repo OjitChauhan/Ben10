@@ -20,7 +20,7 @@ const Footer = () => {
           whileInView="visible"
           variants={{
             visible: {
-              transition: { staggerChildren: 0.2, duration: 1 }
+              transition: { staggerChildren: 0.2, duration: 1,repeat:Infinity }
             }
           }}
           className="text-gray-600 text-[2vh] opacity-80 whitespace-nowrap overflow-hidden"

@@ -15,7 +15,7 @@ const Villian = () => {
 
   const [count, setCount] = React.useState(0);
   return (
-    <div className="w-full h-[95vh]  bg-black flex items-center justify-center flex-col space-y-20">
+    <div className="w-full  h-[550px]  bg-black flex items-center justify-center flex-col space-y-20">
       <div className="space-y-5 flex flex-col items-center">
         <div
           className="text-white text-3xl max-sm:text-2xl font-bold"
@@ -41,11 +41,11 @@ const Villian = () => {
         </motion.div>
       </div>
       <div>
-        <div className="w-[260px] h-[260px] relative  border-t-transparent border-l-transparent border-r-transparent border-b-transparent border-[4px] rounded-full bg-transparent   flex items-center justify-center">
+        <div className="w-[250px] h-[260px] relative  border-t-transparent border-l-transparent border-r-transparent border-b-transparent border-[4px] rounded-full bg-transparent   flex items-center justify-center">
           <motion.div
             animate={{ rotate: [0, 90, 180, 240, 360] }}
             transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
-            className="w-[260px] h-[260px]  relative border-l-transparent border-[4px] border-r-transparent border-b-transparent   rounded-full bg-transparent  border-[#203354] flex items-center justify-center"
+            className="w-[250px] h-[260px]   relative border-l-transparent border-[4px] border-r-transparent border-b-transparent   rounded-full bg-transparent  border-[#203354] flex items-center justify-center"
           >
             <div className="flex items-center overflow-hidden absolute  right-5 top-8   w-[20px] h-[20px]   bg-[#AAFF00] rounded-full">
               {" "}
