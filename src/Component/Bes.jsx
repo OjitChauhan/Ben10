@@ -33,7 +33,7 @@ const Bes = () => {
                                        </motion.div>
                     </div>}
                 </motion.div>
-                 <div className='w-[40%] flex justify-center rounded-lg h-full border-[4px]  border-[#203354] bg-[#AAFF00]'>
+                 <div className='w-[40%] flex justify-center pr-2 rounded-lg h-full border-[4px]  border-[#203354] bg-[#AAFF00]'>
                  <div className='absolute top-[-15px] bg-black border-2 border-[#203354] rounded-lg w-[190px] h-[190px]' onClick={()=>useClick(!click)}><img src={ben} className='w-[110px] h-[170px]' alt="" /></div>
 
                 </div>
@@ -69,7 +69,7 @@ const Bes = () => {
                                        </motion.div>
                     </div>}
                 </motion.div>
-                 <div className='w-[40%] flex justify-center rounded-lg h-full border-[4px]  border-[#203354] bg-[#FF8DA1]'>
+                 <div className='w-[40%] flex justify-center pr-2 rounded-lg h-full border-[4px]  border-[#203354] bg-[#FF8DA1]'>
                  <div className='absolute top-[-15px] bg-black border-2 border-[#203354] rounded-lg w-[190px] h-[190px]' onClick={()=>useClickk(!clickk)}><img src={g} className='w-[110px] h-[170px]' alt="" /></div>
 
                 </div>
@@ -106,7 +106,7 @@ const Bes = () => {
                                        </motion.div>
                     </div>}
                 </motion.div>
-                 <div className='w-[40%] flex justify-center rounded-lg h-full border-[4px]  border-[#203354] bg-[#0059b3]'>
+                 <div className='w-[40%] flex justify-center pr-2  rounded-lg h-full border-[4px]  border-[#203354] bg-[#0059b3]'>
                  <div className='absolute top-[-15px] bg-black border-2 border-[#203354] rounded-lg w-[190px] h-[190px]' onClick={()=>useClickkk(!clickkk)}><img src={k} className='w-[110px] h-[170px]' alt="" /></div>
 
                 </div>
