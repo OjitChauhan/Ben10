@@ -16,7 +16,7 @@ const Bes = () => {
     <div className='bg-black'> 
 
 
-     <div className='w-screen h-[250px]  bg-opacity-70'>
+     <div className='w-screen overflow-hidden h-[250px]  bg-opacity-70'>
         <div className='w-full h-full flex items-center justify-center'>
             <div className='w-[80%] relative  flex h-[140px] '>
                

@@ -11,12 +11,12 @@ const Footer2 = () => {
   const hell = [green, red];
 
   return (
-    <div className="w-full bg-[#AAFF00] p-5 flex flex-wrap justify-around gap-6">
+    <div className="w-full overflow-hidden bg-[#AAFF00] p-5 flex flex-wrap justify-around gap-6">
       
       {/* Fan Form */}
       <motion.div
        
-        className="w-full sm:w-[300px] shadow-[#23395d] shadow-lg h-auto sm:h-[400px] backdrop-blur-xl bg-black/20 rounded-xl p-4 flex flex-col justify-center items-center space-y-6"
+        className="w-[100%] sm:w-[300px] shadow-[#23395d] shadow-lg h-auto sm:h-[400px] backdrop-blur-xl bg-black/20 rounded-xl p-4 flex flex-col justify-center items-center space-y-6"
       >
         <div className="text-2xl font-bold"  style={{ fontFamily: "monoton" }}>Fan Form</div>
         <div className="space-y-5 w-full">
@@ -35,7 +35,7 @@ const Footer2 = () => {
               className="resize-none ml-2 outline-none bg-transparent w-full"
             ></textarea>
           </div>
-          <div className="border-2 h-[50px] items-center text-gray-900 relative flex justify-around rounded-full border-black">
+          <div className="border-2 h-[50px] overflow-hidden  w-[80%] relative items-center text-gray-900  flex justify-around rounded-full border-black">
             <motion.div className="opacity-50" animate={{ opacity: click ? 1 : 0 }} style={{ fontFamily: 'Poppins' }}>Submitted</motion.div>
             <motion.div animate={{ opacity: click ? 0 : 1 }} className="opacity-50" style={{ fontFamily: 'Poppins' }}>Click to Submit</motion.div>
             <motion.div

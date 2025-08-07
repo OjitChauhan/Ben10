@@ -15,7 +15,7 @@ const Villian = () => {
 
     const [count,setCount]=React.useState(0)
   return (
- <div className='w-screen h-[85vh]  bg-black flex items-center justify-center flex-col space-y-20'>
+ <div className='w-screen h-[85vh] overflow-hidden  bg-black flex items-center justify-center flex-col space-y-20'>
   <div className='space-y-5 flex flex-col items-center'>
     <div className='text-white text-3xl max-sm:text-2xl font-bold' style={{fontFamily:"poppins"}}>Explore The Ben Adventure</div>
     <motion.div whileTap={{opacity:1}} whileInView={{opacity:1}} onClick={()=>setClick(!click)} whileHover={{opacity:1}} className='bg-transparent h-[40px] w-[220px] opacity-75 border-2 border-white flex space-x-2 items-center px-1 py-1 rounded-full'>

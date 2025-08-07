@@ -9,7 +9,7 @@ const Uncle = () => {
   const [click,setClick]=useState(false)
   return (
     <div className=' bg-black pb-10'>
-      <div className='w-full flex justify-center px-4'>
+      <div className='w-full overflow-hidden flex justify-center px-4'>
         <div className='w-full max-w-6xl bg-[#AAFF00] shadow-2xl shadow-[#23395d] rounded-full flex flex-col md:flex-row items-center justify-between py-6 px-6 md:px-10 space-y-6 md:space-y-0'>
           
           {/* Text Section */}

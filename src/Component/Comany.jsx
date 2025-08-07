@@ -13,7 +13,7 @@ const Comany = () => {
 
   return (
     
-    <div className="absolute bg-black w-full">
+    <div className="absolute overflow-hidden bg-black w-full">
       <div className="w-full h-[120px] sm:h-[130px]md:h-[150px] bg-[#AAFF00] flex justify-center items-end">
         <div className="w-[100%] sm:w-[80%] md:w-[70%] bg-black rounded-b-full">
           <motion.div

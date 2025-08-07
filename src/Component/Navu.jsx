@@ -12,7 +12,7 @@ const Navu = () => {
   return (
     <div>
       {/* Navbar */}
-      <div className="relative w-full  bg-opacity-75 bg-[#AAFF00] h-[100px] sm:h-[110px] md:h-[130px] flex justify-between items-center px-4 sm:px-8 md:px-12">
+      <div className="relative w-full overflow-hidden  bg-opacity-75 bg-[#AAFF00] h-[100px] sm:h-[110px] md:h-[130px] flex justify-between items-center px-4 sm:px-8 md:px-12">
         
         {/* Logo */}
         <div className="flex items-center">

@@ -10,7 +10,7 @@ const Footer = () => {
     }
   return (
     <div>
-      <div className='w-screen h-[60px] flex justify-center items-center bg-[#AAFF00] '>
+      <div className='w-screen overflow-hidden h-[60px] flex justify-center items-center bg-[#AAFF00] '>
         <div className='flex items-center space-x-7'>
             <div className='text-gray-600 pointer-cursor text-[3vh] opacity-80'><FaChessKing /></div>
             <motion.div initial="hidden"  whileInView="visible" variants={{visible:{transition:{staggerChildren:0.2,duration:1}}}} className='text-gray-600 text-[2vh] opacity-80'>

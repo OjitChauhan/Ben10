@@ -9,7 +9,7 @@ const Grand = () => {
   return (
     
     <div className="pt-10 pb-10 bg-black">
-      <div className="w-full h-auto flex justify-center">
+      <div className="w-full overflow-hidden h-auto flex justify-center">
         <div className="w-[95%] sm:w-[90%] md:w-[80%] bg-[#AAFF00] shadow-2xl shadow-[#23395d] rounded-full flex flex-col md:flex-row items-center justify-between px-6 py-4 gap-6 md:gap-0">
           
           {/* Name Section */}

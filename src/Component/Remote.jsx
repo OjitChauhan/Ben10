@@ -19,7 +19,7 @@ const Remote = () => {
   const images = [first, second, third, fourth, fifth];
 
   return (
-    <div className="w-screen mb-7 max-sm:mb-0  pb-2 bg-black px-4 py-6">
+    <div className="w-screen overflow-hidden mb-7 max-sm:mb-0  pb-2 bg-black px-4 py-6">
       <div className="flex flex-row max-sm:flex-col justify-around max-lg:flex-row items-center pt-2 gap-10  h-auto ">
         
         {/* Omnitrix Core */}
